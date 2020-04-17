@@ -1,0 +1,91 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+    <item
+        android:id="@+id/maptype_none"
+        android:orderInCategory="100"
+        android:title="Current Location"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/maptype_normal"
+        android:orderInCategory="100"
+        android:title="Normal"
+        app:showAsAction="withText|collapseActionView"
+     />
+    <item
+        android:id="@+id/maptype_satellite"
+        android:orderInCategory="100"
+        android:title="Satellite"
+        app:showAsAction="withText|never"
+        />
+    <item
+        android:id="@+id/maptype_terrain"
+        android:orderInCategory="100"
+        android:title="Terrain"
+        app:showAsAction="withText|never"
+      />
+    <item
+        android:id="@+id/maptype_hybrid"
+        android:orderInCategory="100"
+        android:title="Hybrid"
+        app:showAsAction="withText|never"
+        />
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
